@@ -1,0 +1,29 @@
+@media screen and (max-width:850px)
+{
+    nav
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .logo
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 12px;
+    }
+    header {
+        height: 13vh;
+    }
+    .slider
+    {
+        width: 85vw;
+        height: 45vh;
+        margin: 1.6342vh 13.67vh 0vw 6.62vw;
+        overflow-x: auto;
+        overflow-y: hidden;
+        white-space: nowrap;
+    }
+}

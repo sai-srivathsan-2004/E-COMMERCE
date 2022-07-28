@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap');
+:root
+{
+    --main-bg-color: #2874f0;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+}
+header
+{
+    height: 10vh;
+    background-color: var(--main-bg-color);
+}
+nav
+{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+.logo
+{
+    display: flex;
+    align-items: center;
+}
+.logo img
+{
+    width: 10vw;
+    padding: 0 2.76vw;
+}
+nav ul
+{
+    height: 5vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav ul li
+{
+    list-style: none;
+    padding: 0 2vh;
+}
+nav ul li a
+{
+    color: white;
+    text-decoration: none;
+    font-family: 'Cairo', sans-serif;
+}
+.search
+{
+    display: flex;
+    align-items: center;
+}
+.search input
+{
+    width: 35vw;
+    height: 3.5vh;
+    border-radius: 1.32vw;
+    margin: 0 2.17vh 0 6.18vw ;
+    padding: 0 1.1vw;
+}
+.button
+{
+    font-family: 'Cairo', sans-serif;
+    padding: 0.68vh 1.1vw;
+    color: white;
+    background-color: var(--main-bg-color);
+    border: 0.22vw solid white;
+    border-radius: 0.77vw;
+    cursor: pointer;
+}
+nav ul li a:hover
+{
+    color: rgb(202, 191, 191);
+    text-decoration: none;
+    font-family: 'Cairo', sans-serif;
+    font-weight: bold;
+}
+.container
+{
+    min-height: calc(100vh - 12vh - 10vh);
+}
+.slider
+{
+    margin: 3.6342vh 13.67vh 0vw 4.62vw;
+    width: 90vw;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+.slider img {
+  width: 90vw;
+  height: 43vh;
+}
+.card h2 
+{
+    font-family: 'Cairo', sans-serif;
+    margin: 3.42vh 0;
+}
+.card {
+    /* background-color: var(--main-bg-color); */
+    width: 90vw;
+    margin: 5.06vh auto;
+    font-family: 'Cairo', sans-serif;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+.carditems
+{
+    width: 12vw;
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 1.10vw;
+    /* overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap; */
+    padding: 0 7vw;
+}
+.lines
+{
+    text-align: center;
+}
+footer
+{
+    height: 15vh;
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: 'Cairo', sans-serif;
+}
